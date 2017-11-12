@@ -1,4 +1,6 @@
-﻿namespace SharedComponents
+﻿using System;
+
+namespace SharedComponents
 {
     public class Episode
     {
@@ -20,5 +22,7 @@
         public Podcast Podcast { get; set; }
 
         public EpisodeContext Context { get; set; }
+
+        public Uri DownloadUrl { get; set; }
     }
 }
